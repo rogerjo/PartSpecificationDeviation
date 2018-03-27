@@ -35,7 +35,7 @@ namespace CosmeticSpecAddinCS
 
         private void button8_Click(object sender, RibbonControlEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://galaxis.axis.com/sites/Handbooks/windchill/Pages/Exemption.aspx");
+            System.Diagnostics.Process.Start("https://galaxis.axis.com/sites/Handbooks/windchill/Pages/Part-Specification-Deviation.aspx");
 
         }
 
