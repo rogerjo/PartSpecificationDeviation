@@ -35,7 +35,7 @@ namespace CosmeticSpecAddinCS
 
         private void button8_Click(object sender, RibbonControlEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://galaxis.axis.com/sites/Handbooks/windchill/Pages/Part-Specification-Deviation.aspx");
+            System.Diagnostics.Process.Start("https://glinky.axis.com/mek_psd");
 
         }
 
@@ -49,6 +49,19 @@ namespace CosmeticSpecAddinCS
             catch (Exception)
             {
                 MessageBox.Show("This is not a Part Specification Deviation!");
+            }
+        }
+
+        private void button3_Click(object sender, RibbonControlEventArgs e)
+        {
+            try
+            {
+                Globals.ThisAddIn.Application.Run("insertblock");
+            }
+            catch (Exception)
+            {
+
+                throw;
             }
         }
     }
