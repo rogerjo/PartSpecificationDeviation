@@ -19,6 +19,7 @@ namespace CosmeticSpecAddinCS
             try
             {
                 Globals.ThisAddIn.Application.Documents.Add(@"\\storage03.se.axis.com\hw-apps\ptc\part_specification_deviation\Template\PSDTemplate.dotm");
+                Globals.Ribbons.Ribbon1.RibbonUI.ActivateTab("tab1");
             }
             catch (Exception)
             {
